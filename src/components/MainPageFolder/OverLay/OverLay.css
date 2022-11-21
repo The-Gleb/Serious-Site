@@ -1,0 +1,13 @@
+.over-lay {
+	position: absolute;
+	top: 0;	
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 10;
+	background: rgb(0,0,0, 0.5);
+}
+
+.none {
+	display: none;
+}

@@ -1,0 +1,13 @@
+.way-to-page {
+	font-family: Roboto;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 23px;
+	letter-spacing: 0em;
+	text-align: left;
+	margin-top: 60px;
+	color: #7D7D7D;
+}
+.way-to-page span {
+	color: #514A7E;
+}

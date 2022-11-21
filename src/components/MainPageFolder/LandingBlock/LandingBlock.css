@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Roboto:wght@300&display=swap');
+
+.landing-block {
+	margin-top: 50px;
+	margin-bottom: 150px;
+	max-width: 100%;
+}
+.landing-block__main {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+}
+.landing-block__main_left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+.hide_landing-block__main_left {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	animation-name: move_left;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+}
+.main_left__image img {
+	max-width: 278px;
+
+}
+.main_left__title {
+	max-width: 540px;
+	margin-top: 50px;
+	font-family: Roboto;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 52px;
+	letter-spacing: 0em;
+	text-align: left;
+
+}
+.main_left__title span {
+	font-family: Bad Script;
+	font-size: 60px;
+	/* font-style: italic; */
+	font-weight: 400;
+	line-height: 70px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #514A7E;
+}
+.main_left__text {
+	margin-top: 60px;
+	font-family: Roboto;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 19px;
+	letter-spacing: 0em;
+	text-align: left;
+	color: #7D7D7D;
+
+}
+.landing-block__main_right {
+}
+.main_right-image img {
+	max-width: 476px;
+}
+.catalog-btn {
+	width: 193px;
+	height: 193px;
+	box-sizing: border-box;
+	margin: auto;
+	border: 1px solid #514A7E;
+	border-radius: 10000px;
+	padding: 77px 37px 80px 37px;
+	position: relative;
+}
+.catalog-btn:hover {
+	background: #514A7E;
+	border: 1px solid #514A7E;
+	box-shadow: 0px 4px 50px rgba(81, 74, 126, 0.6);
+	color: white;
+}
+.catalog-btn:hover .catalog-btn__text {
+	color: white;
+}
+.catalog-btn:hover .catalog-btn__arrow {
+	background-image: url("../../../../public/images/landing_block/ArrowWhite.svg");
+}
+.catalog-btn__text {
+	color: #514A7E;
+	text-align: left;
+}
+.catalog-btn__arrow {
+	width: 79px;
+	height: 8px;
+	background-image: url("../../../../public/images/landing_block/Arrow\ 8.svg");
+	text-align: right;
+	position: absolute;
+	right: 37px;
+	bottom: 80px;
+}
+
+@keyframes move_left {
+	from {
+		transform: translateX(0);
+		opacity: 1;
+	}
+	to {
+		transform: translateX(-50px);
+		opacity: 0;
+	}
+}

@@ -1,0 +1,63 @@
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin-top: 54px;
+max-width: 100%;
+margin-left: 7px;
+margin-right: 7px;
+}
+.header__burger_icon {
+	max-width: 36px;
+	height: 36px;
+}
+.header__burger_icon img {
+	margin-left: 0;
+	
+}
+.header__right-part {
+	display: flex;
+	max-width: 476px;
+	justify-content: space-between;
+	align-items: center;
+}
+.header__search {
+	max-width: 347px;
+	height: 20px;
+	display: flex;
+	margin-left: 0px;
+	align-items:flex-start;
+}
+.search_icon {
+	height: 20px;
+	max-width: 20px;
+}
+.input_container {
+	max-width: 100%;
+	color: #7D7D7D;
+}
+.search_input {
+	border: 0px;
+	border-bottom: 0.5px solid #7D7D7D;
+	height: 21px;
+	margin-left: 19px;
+	margin-top: -1px;
+	margin-right: 40px;
+	display: block;
+	box-sizing: border-box;
+	max-width: 100%;
+
+}
+
+
+.header__btn_box {
+	display: flex;
+}
+.header__btn_box div {
+	max-width: 20px;
+	height: 20px;
+	margin-right: 15px;
+}
+.header__btn_box div:last-child {
+	margin-right: 0;
+}

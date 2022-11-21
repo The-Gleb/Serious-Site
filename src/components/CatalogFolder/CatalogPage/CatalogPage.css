@@ -1,0 +1,8 @@
+.catalog-page {
+	max-width: 1170px;
+	margin: auto;
+	text-align: center;
+  }
+  .filter-products_container {
+	display: flex;
+}
